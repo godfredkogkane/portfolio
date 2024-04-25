@@ -57,39 +57,35 @@ footer {
     flex-shrink: 0; /* Prevent footer from shrinking */
 }
 
-/* Achievements section styles */
-#achievements {
+/* Projects section styles */
+#projects {
     background-color: #f9f9f9; /* Light gray background */
     padding: 40px 0;
 }
 
-.achievements-wrapper {
-    display: flex;
-    flex-wrap: wrap; /* Enable wrapping */
-    justify-content: space-between;
-}
 
-.achievement-item {
-    width: 48%; /* Two items per row */
-    margin-bottom: 30px;
+
+.project-item {
+    width: calc(33.33% - 20px); /* Three items per row with spacing */
+    margin-bottom: 40px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
-.achievement-item h3 {
+.project-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.achievement-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+.project-item p {
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
-.achievement-item p {
-    font-size: 18px;
-    margin-bottom: 5px;
+.project-item p.role {
+    color: #87CEEB; /* Sky blue text color for roles */
 }

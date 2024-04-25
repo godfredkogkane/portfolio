@@ -1,0 +1,97 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* Light yellow background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 800px; /* Adjust container width as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #87CEEB; /* Sky blue header background */
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1; /* Fill remaining space */
+}
+
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #87CEEB; /* Sky blue footer background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+/* Achievements section styles */
+#achievements {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 40px 0;
+}
+
+.achievements-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: space-between;
+}
+
+/* Achievements section styles */
+.achievement-item {
+    width: calc(50% - 20px); /* Two items per row with spacing */
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.achievement-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.achievement-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.achievement-item p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
